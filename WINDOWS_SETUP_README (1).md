@@ -246,3 +246,5 @@ Frontend:
 cd frontend
 npm start
 ```
+## Author 
+Tameem Ikramullah
