@@ -8,7 +8,7 @@ A blockchain-powered supply chain transparency platform built with **Django**, *
 - Inventory tracking
 - Supply chain workflow support
 - Blockchain-backed transaction recording
-- Celo testnet integration
+- Sepolia testnet integration
 - Django admin dashboard
 - REST API support
 - React frontend
@@ -35,7 +35,7 @@ A blockchain-powered supply chain transparency platform built with **Django**, *
 ### Blockchain
 
 - Web3.py
-- Celo Alfajores testnet
+- Sepolia testnet
 - Smart contract ABI integration
 
 ## Project Structure
@@ -155,9 +155,9 @@ DB_PASSWORD=supply2024
 DB_HOST=localhost
 DB_PORT=5432
 
-CELO_RPC_URL=https://alfajores-forno.celo-testnet.org
-CELO_PRIVATE_KEY=your_private_key_here
-CELO_CONTRACT_ADDRESS=0x650Fe75F1EaC682e3365F8C8348B38eF1713FD0E
+SEPOLIA_RPC_URL=https://sepolia.infura.io/v3/b9f15aa53202424b90c51edb5b91577f
+SEPOLIA_PRIVATE_KEY=your_private_key_here
+SEPOLIA_CONTRACT_ADDRESS=0x650Fe75F1EaC682e3365F8C8348B38eF1713FD0E
 ```
 
 ## Migrations and Admin User
@@ -241,11 +241,11 @@ http://localhost:3000
 The backend includes a blockchain integration module that:
 
 - Loads the contract ABI from `contracts/supply_chain_abi.json`
-- Connects to Celo via `CELO_RPC_URL`
-- Uses `CELO_PRIVATE_KEY` to sign transactions
-- Interacts with a deployed smart contract at `CELO_CONTRACT_ADDRESS`
+- Connects to Sepolia via `SEPOLIA_RPC_URL`
+- Uses `SEPOLIA_PRIVATE_KEY` to sign transactions
+- Interacts with a deployed smart contract at `SEPOLIA_CONTRACT_ADDRESS`
 
-If the Celo network is unavailable, the backend now starts normally and blockchain features remain disabled until a connection is available.
+If the Sepolia network is unavailable, the backend now starts normally and blockchain features remain disabled until a connection is available.
 
 ## Common Issues
 
@@ -269,13 +269,13 @@ sudo -u postgres psql
 ALTER USER wplott WITH PASSWORD 'supply2024';
 ```
 
-### 3. `Please set the CELO_PRIVATE_KEY`
+### 3. `Please set the SEPOLIA_PRIVATE_KEY`
 
-Add `CELO_PRIVATE_KEY` to your `.env` file.
+Add `SEPOLIA_PRIVATE_KEY` to your `.env` file.
 
-### 4. `Failed to connect to the Celo network`
+### 4. `Failed to connect to the Sepolia network`
 
-Check your `CELO_RPC_URL`, internet connection, and testnet availability.
+Check your `SEPOLIA_RPC_URL`, internet connection, and testnet availability.
 
 ### 5. Django starts but blockchain features fail
 
@@ -312,5 +312,5 @@ pnpm start
 This project is provided for educational and development purposes.
 
 ## Author
-
+Tameem Ikramullah
 Developed for a blockchain-based supply chain transparency solution.
