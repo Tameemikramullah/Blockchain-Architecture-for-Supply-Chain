@@ -1,6 +1,6 @@
 # Supply Chain Transparency Blockchain
 
-A blockchain-powered supply chain transparency platform built with **Django**, **PostgreSQL**, **React**, and **Web3/Celo**. The system is designed to track products across the supply chain and store key actions on-chain for transparency and traceability.
+A blockchain-powered supply chain transparency platform built with **Django**, **PostgreSQL**, **React**, and **Web3/sepolia**. The system is designed to track products across the supply chain and store key actions on-chain for transparency and traceability.
 
 ## Features
 
