@@ -1,0 +1,197 @@
+commit d205fe3b9f465562740b55c1149c2e40e8b2cbba
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sun May 19 15:22:52 2024 +0300
+
+    Added Logout Component and Modal also added staff option in login component
+
+commit 91d1fba4c085b34be8c430816877361e09d56c85
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sun May 19 15:21:51 2024 +0300
+
+    fixed bugs relating to staff login,added customer list component and added customer serializer
+
+commit afa5fcfd0806caaab4684285d9579867bbdb46b4
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sun May 19 12:19:36 2024 +0300
+
+    updated users and delivery's apps apps.py files and util files to handle post_migration
+
+commit 70a4b0f1868262dfa3f7b2ce6264d37a789a9783
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sun May 19 11:22:47 2024 +0300
+
+    Added Logout Component and Modal also added staff option in login component
+
+commit 7f8b52540e87424dbc24bbe1183d39faf6494099
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sun May 19 09:46:02 2024 +0300
+
+    created permissions.py in backend apps for isStaff check
+
+commit 6ff977ec0eda8a22a036d51177f10a60e5286bd2
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sun May 19 09:13:54 2024 +0300
+
+    added CustomerOrderDetail and StaffOrderList component and added authorization tokens for frontend components
+
+commit 5beeb2fdbe58fd8cc5070ffab07ffe906c84e88e
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sat May 18 17:19:48 2024 +0300
+
+    added Profile Component and edited user-data view to match it
+
+commit e403613e092750d9a11fb92de235608671c36471
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sat May 18 16:38:41 2024 +0300
+
+    improved Homepage Component styling
+
+commit 999b71b9608b576efb1a371af95809ea51ae4ca4
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sat May 18 16:35:34 2024 +0300
+
+    added Homepage Component for customers
+
+commit b70a1f309c0af10e9e08af00c3a401abb54e957c
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sat May 18 16:02:16 2024 +0300
+
+    added pending-orders component and fixed bugs in some order components and delivery app
+
+commit 62505d048face39d24de218b3219d99907ccfd87
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sat May 18 15:02:14 2024 +0300
+
+    changed order_id field and did again migrations
+
+commit 83054f9c07538cbad19725c70a980b6cc67c434a
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Sat May 18 02:14:18 2024 +0300
+
+    added delivery app and Location,Route,Cost models
+
+commit 16fe9652d5190f084438ce568c94133e0b16e4c7
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Fri May 17 23:22:45 2024 +0300
+
+    added Create Order component and minor bug fixes for other components
+
+commit 5b608536d1ea0a5dca4ccf698230082f6cc6ba03
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Fri May 17 20:56:56 2024 +0300
+
+    added Inventory detail and report components
+
+commit 7148d8a682aedea8540020e9b8d0f3af6fb295a9
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Fri May 17 17:52:59 2024 +0300
+
+    added order details and order-history ui components
+
+commit d492b8b6c222d5c63226145487d53c3cafe65588
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Fri May 17 16:13:10 2024 +0300
+
+    added dropdown links in navbar for navigation and product list component
+
+commit a452fe704a5cdc990823163854fe9b524add4661
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Fri May 17 14:35:09 2024 +0300
+
+    added Navbar component for frontend
+
+commit 639133793b184596f5d593778b7754688dcf8f6e
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Fri May 17 13:51:56 2024 +0300
+
+    added Form and Loader frontend components(reusable components)
+
+commit 97aee07d07c9f327bc756aa1ef016f368351feed
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Fri May 17 12:44:28 2024 +0300
+
+    added more methods in store app to implement business logic
+
+commit bed911a4abfc5b37b67b5b9ec1d5f40a95a7cd43
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 23:06:55 2024 +0300
+
+    added more methods in orders app to implement business logic
+
+commit 2970f597de0c69fc9c847bf6bbf61b53637acfc9
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 21:22:59 2024 +0300
+
+    Added Serializers for CRUD operations
+
+commit 3d1151e81619a94c94f3f283fb43f2a339ad4a12
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 19:07:02 2024 +0300
+
+    restructured backend apps
+
+commit 1f707bc325850f51202944aa8a6e1aefb2c7d481
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 15:17:36 2024 +0300
+
+    Fully configured backend authentication for whole application
+
+commit dee886faf5072a222ae1bfc69586c8bad9fad85a
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 13:45:49 2024 +0300
+
+    added login and register components for frontend
+
+commit b84a2cf72a36f0b0005cf0d3e376f6949335b228
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 13:26:33 2024 +0300
+
+    configured tailwindcss
+
+commit e174bfee3fed89fa4f0e28bf909299849c1a11f9
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 13:09:00 2024 +0300
+
+    configured database models/tables
+
+commit 854da9b62812eddf4961c9711bce6078e9defa1d
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 12:03:05 2024 +0300
+
+    initialized react frontend app
+
+commit acdd21c0a9780b560abe5c1643661b5656a470f3
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 11:30:56 2024 +0300
+
+    initialized django backend part
+
+commit df23276a8c32feeed70e94cca059e9cbd94727cf
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 11:22:29 2024 +0300
+
+    initialized django backend part
+
+commit 8f8d7a4ee7db10de96007e76a0fd09d5a21a5384
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Thu May 16 11:01:04 2024 +0300
+
+    initial commit
+
+commit 8e8d4bc13ba4e46dfae1146dcaeb5cf1a046ebc9
+Author: wplott1 <wplott1@wgu.edu>
+Date:   Mon Feb 27 18:18:19 2023 +0000
+
+    Added Branching instructions to README
+
+commit 5c6cab3370d38263505cb408a3c47ced40e9211e
+Author: Zohar Sajith <zohar.sajith@cdw.com>
+Date:   Mon Feb 13 15:45:36 2023 +0000
+
+    Added WGU Template README.md
+
+commit 835201f0562fa7fd2a47c06be1742da2ba56f12c
+Author: Zohar Sajith <zohar.sajith@cdw.com>
+Date:   Mon Feb 13 15:42:43 2023 +0000
+
+    Initial commit
